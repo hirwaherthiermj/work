@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient( rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url(./images/flash.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+width: 100%;
+height: 150vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    color: red;
+    font-size: xx-large;
+}
+.header img{
+    width: 6%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.header span{
+margin-left: 40px;
+margin-top: 20px;
+font-family: 'kenia';
+}
+.header button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background: red;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+.header button:hover{
+transform: translateX(5px);
+filter: blur(0.9px);
+background: rgb(219, 59, 59);
+}
+.first{
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+    margin-left: 500px;
+    margin-top: 90px;
+}
+#email{
+    height: 40px;
+    color: #000;
+    outline: none;
+    border: none;
+    background: #fff;
+}
+section .first ::placeholder{
+color: gray;
+align-items: center;
+display: flex;
+justify-content: end;
+font-size: larger;
+}
+#started{
+    width: 150px;
+    height: 42px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background: red;
+    border-radius: 5px;
+}
+.second{
+    width: 100%;
+height: 80vh;
+  background: #000;
+  color: white;
+}
+.second img{
+    width: 200px;
+    height: 70%;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.second p i{
+font-size: xx-large;
+}
+.second p span{
+    font-size: larger;
+    margin-left: 20px;
+}
+.second p{
+    margin-left: 220px;
+}
+.second .p{
+   color: #fff;
+   margin-left: 500px;
+   margin-top: -350px;
+}
+.links{
+    margin-left: 500px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+h4{
+    margin-left: 500px;
+}
